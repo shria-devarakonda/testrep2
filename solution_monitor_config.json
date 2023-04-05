@@ -1,0 +1,14 @@
+{
+    "agent_id": "",
+    "name": "",
+    "description": "Solution level monitor Config to track monitoring at solution level as well as agent level ",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "2023-04-05 06:50:20.238816",
+    "uts": "2023-04-05 06:50:20.238843",
+    "_XpmsObjectMixin__type": "MonitorConfig",
+    "_XpmsObjectMixin__api_version": "11.2.2.1",
+    "is_deleted": false,
+    "is_enabled": false,
+    "agents_to_monitor": {}
+}
