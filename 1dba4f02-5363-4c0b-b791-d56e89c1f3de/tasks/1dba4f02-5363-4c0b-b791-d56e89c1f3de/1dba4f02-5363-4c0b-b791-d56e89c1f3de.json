@@ -1,0 +1,33 @@
+{
+    "task_class": "xpms_lib_dag.tasks.dag_task.DagTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "is_enabled": true,
+    "category": "agent",
+    "name": "agent1",
+    "description": "blank agent description",
+    "cts": "2023-04-05T06:52:05.558421",
+    "is_deleted": false,
+    "uts": "2023-04-05T06:52:05.558427",
+    "default_version": "10c8305f-4b54-4cc4-a6ff-b2e6e2b6ffaa",
+    "created_by": "system",
+    "modified_by": "system",
+    "asset_source": {
+        "type": "",
+        "name": "",
+        "version": ""
+    },
+    "pulse_enabled": false,
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "11.2.2.1",
+    "task_id": "1dba4f02-5363-4c0b-b791-d56e89c1f3de",
+    "scope": "solution",
+    "agent_id": "1dba4f02-5363-4c0b-b791-d56e89c1f3de",
+    "task_type": "",
+    "user_category": "Internal",
+    "executor_type": "",
+    "internal_pipeline": false,
+    "display_name": ""
+}
