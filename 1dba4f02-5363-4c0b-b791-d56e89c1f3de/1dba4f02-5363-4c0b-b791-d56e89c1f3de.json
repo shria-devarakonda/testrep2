@@ -1,0 +1,39 @@
+{
+    "pipeline_id": "1dba4f02-5363-4c0b-b791-d56e89c1f3de",
+    "pulse_enabled": false,
+    "agent_id": "1dba4f02-5363-4c0b-b791-d56e89c1f3de",
+    "scope": "solution",
+    "pipeline_type": "agent",
+    "schedule": {
+        "schedule_enabled": false,
+        "cron_expr": "",
+        "schedule_version": ""
+    },
+    "input_schema": {},
+    "output_schema": {},
+    "internal_pipeline": false,
+    "is_enabled": false,
+    "category": "pipeline",
+    "name": "agent1",
+    "description": "blank agent description",
+    "cts": "2023-04-05T06:52:05.534127",
+    "is_deleted": false,
+    "uts": "2023-04-05T06:52:05.534127",
+    "default_version": "10c8305f-4b54-4cc4-a6ff-b2e6e2b6ffaa",
+    "created_by": "shria",
+    "modified_by": "system",
+    "asset_source": {
+        "type": "",
+        "name": "",
+        "version": ""
+    },
+    "_XpmsObjectMixin__type": "Agent",
+    "_XpmsObjectMixin__api_version": "11.2.2.1",
+    "version_name": "Version 1",
+    "generate_api": false,
+    "id": "blank_agentumvlh",
+    "import_status": "processed",
+    "error_message": "",
+    "color": "",
+    "type": "custom"
+}
