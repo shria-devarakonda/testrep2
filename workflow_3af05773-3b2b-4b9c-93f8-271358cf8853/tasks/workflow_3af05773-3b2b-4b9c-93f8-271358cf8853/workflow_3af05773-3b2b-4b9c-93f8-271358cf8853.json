@@ -1,0 +1,33 @@
+{
+    "task_class": "xpms_lib_dag.tasks.dag_task.DagTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "is_enabled": true,
+    "category": "workflow",
+    "name": "Default Workflow",
+    "description": "",
+    "cts": "2023-04-05T06:50:18.668667",
+    "is_deleted": false,
+    "uts": "2023-04-05T06:50:18.668674",
+    "default_version": "6b44c81d-5960-4504-ba29-b2f7e85b0b33",
+    "created_by": "system",
+    "modified_by": "system",
+    "asset_source": {
+        "type": "",
+        "name": "",
+        "version": ""
+    },
+    "pulse_enabled": false,
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "11.2.2.1",
+    "task_id": "workflow_3af05773-3b2b-4b9c-93f8-271358cf8853",
+    "scope": "solution",
+    "agent_id": "workflow_3af05773-3b2b-4b9c-93f8-271358cf8853",
+    "task_type": "",
+    "user_category": "Internal",
+    "executor_type": "",
+    "internal_pipeline": false,
+    "display_name": ""
+}
