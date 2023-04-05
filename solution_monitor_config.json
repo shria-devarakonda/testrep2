@@ -5,10 +5,24 @@
     "created_by": "system",
     "modified_by": "system",
     "cts": "2023-04-05 06:50:20.238816",
-    "uts": "2023-04-05 06:52:05.815648",
+    "uts": "2023-04-05 06:52:18.467204",
     "_XpmsObjectMixin__type": "MonitorConfig",
     "_XpmsObjectMixin__api_version": "11.2.2.1",
     "is_deleted": false,
     "is_enabled": false,
-    "agents_to_monitor": {}
+    "agents_to_monitor": {
+        "1dba4f02-5363-4c0b-b791-d56e89c1f3de": {
+            "is_enabled": false,
+            "execution_id": "ref_id",
+            "tasks_to_monitor": {
+                "customagentl7aYdd6-SIWU3wdNqfLRagdRRKW": {
+                    "task_id": "l7aYdd6-SIWU3wdNqfLRag",
+                    "task_name": "Ingest Document",
+                    "display_name": "Ingest Document",
+                    "data_type": "document",
+                    "is_enabled": true
+                }
+            }
+        }
+    }
 }
