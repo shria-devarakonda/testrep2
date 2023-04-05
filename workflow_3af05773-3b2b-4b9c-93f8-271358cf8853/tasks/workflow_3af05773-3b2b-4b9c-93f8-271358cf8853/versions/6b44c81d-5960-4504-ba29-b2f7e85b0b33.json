@@ -7,10 +7,222 @@
     "name": "version 1",
     "display_name": "",
     "description": "",
-    "start": "StartTask_06935ac7",
-    "end": "EndTask_35789b4b",
+    "start": "StartTask_f12bea3e",
+    "end": "EndTask_b953adae",
     "tasks": {
-        "StartTask_06935ac7": {
+        "blank_agentumvlh": {
+            "create_ts": "2023-04-05 06:52:05.741886",
+            "task_id": "1dba4f02-5363-4c0b-b791-d56e89c1f3de",
+            "version_id": "10c8305f-4b54-4cc4-a6ff-b2e6e2b6ffaa",
+            "task_name": "agent1",
+            "task_class": "xpms_lib_dag.tasks.dag_task.DagTask",
+            "name": "agent1",
+            "display_name": "",
+            "description": "blank agent description",
+            "start": "StartTask_d4753d71",
+            "end": "EndTask_98a0797f",
+            "tasks": {
+                "StartTask_d4753d71": {
+                    "create_ts": "2022-10-13 10:30:21.027685",
+                    "task_id": "dummy_task",
+                    "version_id": "kk3n7w-TSSqYJTARMEkJEw",
+                    "task_name": "Dummy Task",
+                    "task_class": "xpms_lib_dag.tasks.dummy_task.DummyTask",
+                    "name": "StartTask",
+                    "display_name": "Dummy Task",
+                    "description": "",
+                    "start": null,
+                    "end": null,
+                    "tasks": {},
+                    "config": {
+                        "conditions": {}
+                    },
+                    "exec_type": "sync",
+                    "category": "default.Base",
+                    "is_enabled": true,
+                    "is_published": true,
+                    "is_deleted": false,
+                    "skip": false,
+                    "scope": "solution",
+                    "compatible_groups": [
+                        "base_dependency_group"
+                    ],
+                    "asset_dependencies": null,
+                    "copied_assets": false,
+                    "extras": {
+                        "index": "",
+                        "x_config": {
+                            "basic_config": [],
+                            "adv_config": [
+                                {
+                                    "options": [
+                                        "any",
+                                        "all"
+                                    ],
+                                    "is_option_object": false,
+                                    "display_key": null,
+                                    "value_key": null,
+                                    "name": "dependencies",
+                                    "description": "dependency on previous tasks to run",
+                                    "data_type": "string",
+                                    "op_type": "categorical",
+                                    "value": "any",
+                                    "multi_select": false,
+                                    "hidden": true,
+                                    "config_path": "config.dependencies",
+                                    "ui_component": "",
+                                    "required": false,
+                                    "basic": false,
+                                    "placeholder": null,
+                                    "_XpmsObjectMixin__type": "CategoricalListConfiguration",
+                                    "_XpmsObjectMixin__api_version": "11.2.2.1"
+                                }
+                            ]
+                        }
+                    },
+                    "next": [
+                        "EndTask_98a0797f"
+                    ],
+                    "previous": [],
+                    "timeout": "3000",
+                    "retries": 0,
+                    "state": {},
+                    "internal_pipeline": false,
+                    "instance_id": "OhXeXMr-S0-cZ4wPm7q2Qw",
+                    "skill_instance_id": "",
+                    "solution_id": "solnew1",
+                    "agent_id": "",
+                    "created_by": "system",
+                    "modified_by": "system",
+                    "cts": "",
+                    "uts": "",
+                    "_XpmsObjectMixin__type": "Task",
+                    "_XpmsObjectMixin__api_version": "11.2.2.1",
+                    "parent_version": "",
+                    "type": "internal",
+                    "pulse_enabled": false,
+                    "feedback_enabled": false
+                },
+                "EndTask_98a0797f": {
+                    "create_ts": "2022-10-13 10:30:21.027685",
+                    "task_id": "dummy_task",
+                    "version_id": "kk3n7w-TSSqYJTARMEkJEw",
+                    "task_name": "Dummy Task",
+                    "task_class": "xpms_lib_dag.tasks.dummy_task.DummyTask",
+                    "name": "EndTask",
+                    "display_name": "Dummy Task",
+                    "description": "",
+                    "start": null,
+                    "end": null,
+                    "tasks": {},
+                    "config": {
+                        "conditions": {}
+                    },
+                    "exec_type": "sync",
+                    "category": "default.Base",
+                    "is_enabled": true,
+                    "is_published": true,
+                    "is_deleted": false,
+                    "skip": false,
+                    "scope": "solution",
+                    "compatible_groups": [
+                        "base_dependency_group"
+                    ],
+                    "asset_dependencies": null,
+                    "copied_assets": false,
+                    "extras": {
+                        "index": "",
+                        "x_config": {
+                            "basic_config": [],
+                            "adv_config": [
+                                {
+                                    "options": [
+                                        "any",
+                                        "all"
+                                    ],
+                                    "is_option_object": false,
+                                    "display_key": null,
+                                    "value_key": null,
+                                    "name": "dependencies",
+                                    "description": "dependency on previous tasks to run",
+                                    "data_type": "string",
+                                    "op_type": "categorical",
+                                    "value": "any",
+                                    "multi_select": false,
+                                    "hidden": true,
+                                    "config_path": "config.dependencies",
+                                    "ui_component": "",
+                                    "required": false,
+                                    "basic": false,
+                                    "placeholder": null,
+                                    "_XpmsObjectMixin__type": "CategoricalListConfiguration",
+                                    "_XpmsObjectMixin__api_version": "11.2.2.1"
+                                }
+                            ]
+                        }
+                    },
+                    "next": [],
+                    "previous": [
+                        "StartTask_d4753d71"
+                    ],
+                    "timeout": "3000",
+                    "retries": 0,
+                    "state": {},
+                    "internal_pipeline": false,
+                    "instance_id": "OhXeXMr-S0-cZ4wPm7q2Qw",
+                    "skill_instance_id": "",
+                    "solution_id": "solnew1",
+                    "agent_id": "",
+                    "created_by": "system",
+                    "modified_by": "system",
+                    "cts": "",
+                    "uts": "",
+                    "_XpmsObjectMixin__type": "Task",
+                    "_XpmsObjectMixin__api_version": "11.2.2.1",
+                    "parent_version": "",
+                    "type": "internal",
+                    "pulse_enabled": false,
+                    "feedback_enabled": false
+                }
+            },
+            "config": {
+                "conditions": {}
+            },
+            "exec_type": null,
+            "category": "agent",
+            "is_enabled": true,
+            "is_published": true,
+            "is_deleted": false,
+            "skip": false,
+            "scope": "solution",
+            "compatible_groups": [
+                "base_dependency_group"
+            ],
+            "asset_dependencies": null,
+            "copied_assets": false,
+            "extras": {},
+            "next": [
+                "EndTask_b953adae"
+            ],
+            "previous": [
+                "StartTask_f12bea3e"
+            ],
+            "timeout": 3000,
+            "retries": 0,
+            "state": {},
+            "internal_pipeline": false,
+            "instance_id": "vx_6M2P-RV6d-DKqnY4kew",
+            "skill_instance_id": "",
+            "solution_id": "solnew1",
+            "agent_id": "1dba4f02-5363-4c0b-b791-d56e89c1f3de",
+            "created_by": "system",
+            "modified_by": "system",
+            "cts": "",
+            "uts": "",
+            "_XpmsObjectMixin__type": "Task",
+            "_XpmsObjectMixin__api_version": "11.2.2.1"
+        },
+        "StartTask_f12bea3e": {
             "create_ts": "2022-10-13 10:30:21.027685",
             "task_id": "dummy_task",
             "version_id": "kk3n7w-TSSqYJTARMEkJEw",
@@ -69,7 +281,7 @@
                 }
             },
             "next": [
-                "EndTask_35789b4b"
+                "blank_agentumvlh"
             ],
             "previous": [],
             "timeout": "3000",
@@ -91,7 +303,7 @@
             "pulse_enabled": false,
             "feedback_enabled": false
         },
-        "EndTask_35789b4b": {
+        "EndTask_b953adae": {
             "create_ts": "2022-10-13 10:30:21.027685",
             "task_id": "dummy_task",
             "version_id": "kk3n7w-TSSqYJTARMEkJEw",
@@ -151,7 +363,7 @@
             },
             "next": [],
             "previous": [
-                "StartTask_06935ac7"
+                "blank_agentumvlh"
             ],
             "timeout": "3000",
             "retries": 0,
